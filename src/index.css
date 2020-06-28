@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  font-family: "Muli", sans-serif;
+}
+
+.App {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 2em;
+}

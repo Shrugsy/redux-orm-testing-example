@@ -1,0 +1,33 @@
+{
+  "name": "redux-orm-testing-example",
+  "version": "1.0.0",
+  "description": "Example project showing testing options for a project utilising the redux-orm package",
+  "keywords": ["react", "redux-orm", "jest", "@testing-library/react"],
+  "main": "src/index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.3",
+    "prop-types": "15.7.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-redux": "7.2.0",
+    "react-scripts": "3.0.1",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "2.13.8",
+    "redux-mock-store": "^1.5.4",
+    "redux-orm": "0.16.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom - --collect-coverage",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.{js,jsx}", "!src/index.js"]
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
